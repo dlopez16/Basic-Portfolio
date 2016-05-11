@@ -1,0 +1,56 @@
+/**{*/
+	/*box-sizing: border-box;*/
+	/*text-align: center;*/
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+}
+
+header{
+	background:#ffffff;
+	border-color: #cccccc;
+
+}
+
+h1{
+	background: #4aaaa5;
+	padding: 30px 40px;
+	width: 200px
+}
+
+
+p{
+	width: 350px;
+	float: right;
+	
+}
+
+/*#bio-image,#main-bio,#contact-info{
+	float: left;
+}*/
+
+#bio-image{
+	width: 200px;
+	height:360px;
+	margin-right: 20px;
+
+}
+
+
+
+footer{
+	background: #666666;
+	height: 100px;
+	text-align:center;
+	margin-bottom: 20px;
+	
+
+	
+}
+
+#main-bio{
+	background: #666666;
+	}
