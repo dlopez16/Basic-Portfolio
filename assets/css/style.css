@@ -1,30 +1,53 @@
 /**{*/
 	/*box-sizing: border-box;*/
 	/*text-align: center;*/
-}
+/*}*/
 
 body{
-	margin: 0;
-	padding: 0;
+	/*margin: 0;*/
+	/*padding: 0;*/
 	background-color: #cccccc;
+	margin-left: 200px;
+	margin: 0px;
+
 }
 
 header{
 	background:#ffffff;
 	border-color: #cccccc;
+	/*width: 200px;*/
+	overflow: auto;
+	border-bottom: 1px solid;
+}
 
+
+#contact-info{
+	/*float:left;*/
+	margin-left: 900px;
+	border: 1px solid;
+	width: 400px;
+	text-align: center;
+	height: 200px;
+	position: absolute;
+	top:120px;
+	right: 400px;
 }
 
 h1{
 	background: #4aaaa5;
 	padding: 30px 40px;
-	width: 200px
+	width: 200px;
+	float:left;
+	margin:0;
 }
 
+h2{
+
+}
 
 p{
-	width: 350px;
-	float: right;
+	width: 300px;
+	float: left;
 	
 }
 
@@ -35,22 +58,38 @@ p{
 #bio-image{
 	width: 200px;
 	height:360px;
-	margin-right: 20px;
+	float:left;
 
 }
-
-
 
 footer{
 	background: #666666;
 	height: 100px;
 	text-align:center;
-	margin-bottom: 20px;
+	margin-top: 200px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left:0px;
 	
+}
 
-	
+img{
+	width: 100px
 }
 
 #main-bio{
 	background: #666666;
+	height: 500px;
+	position:absolute;
+	width: 700px;
 	}
+#boxes{
+float:right;
+right:20px;
+}
+
+a{
+	top: 0;
+	right:12px;
+}
